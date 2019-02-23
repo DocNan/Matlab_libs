@@ -5,4 +5,4 @@ plot_lib contains small matlab functions to refine the figure plotting.
 
 ## set_subplot_pos()
 
-![set_subplot_pos example](/data/example_figure_set_subplot_pos.png width=300px)
+![set_subplot_pos example](/data/example_figure_set_subplot_pos.png =300x)
