@@ -54,10 +54,10 @@ if nargin == 0
   x = linspace(0, 1, 15);
   y = sin(2*pi*x);
   disp('length types');
-  disp(num2str(N));
+  disp(length(type_styles));
   disp(type_styles);
   figure()
-  for i = 1:N
+  for i = 1:length(type_styles)
     % plot(x, y+i,':');%, type_styles(i));
     plot(x, y+i, type_styles{i});
     hold on;
